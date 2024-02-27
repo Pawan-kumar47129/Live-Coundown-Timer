@@ -1,0 +1,92 @@
+body {
+    background: repeating-linear-gradient(#222E50, #222e5090);
+    color: #fff;
+}
+
+p {
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 5rem;
+    height: 6rem;
+}
+
+button {
+    width: 5rem;
+    height: 5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.date {
+    font-size: 1rem;
+}
+
+.change-gole {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: none;
+}
+
+.change-gole>button {
+    width: 8rem;
+    height: 2rem;
+    color: #222E50;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #222e506e;
+    border: none;
+    color: black;
+}
+
+.change-gole>button:hover {
+    background-color: #283618;
+}
+
+#change-date {
+    width: 12rem;
+    height: 2rem;
+    border-radius: 5px;
+    outline: 0;
+    text-align: center;
+}
+
+label {
+    font-size: 1.3rem;
+}
+
+#cng {
+    display: flex;
+    justify-content: center;
+}
+
+#newdate {
+    width: 20rem;
+    height: 2rem;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+#newdate:hover {
+    background-color: #283618;
+}

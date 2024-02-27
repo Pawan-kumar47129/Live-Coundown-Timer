@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="cng"><button id="newdate" onclick="ShowChangeDate()">Click Here To change DataTime</button></div>
+    <form class="change-gole">
+        <label for="change-date">Enter New DateTime</label>
+        <input type="datetime-local" name="newData" placeholder="Enter data time" id="change-date" required>
+        <button type="submit">ChangeDate</button>
+    </form>
+    <p>We are Coming Soon</p>
+    <p id="show-deadLine">25 Feburary 2024 8:00 PM</p>
+    <div class="container">
+        <div class="content">
+            <button aria-readonly="true" id="day">00</button>
+            <p class="date">Days</p>
+        </div>
+        <div class="content">
+            <button aria-readonly="true" id="hour">00</button>
+            <p class="date">Hours</p>
+        </div>
+        <div class="content">
+            <button aria-readonly="true" id="minutes">00</button>
+            <p class="date">Minutes</p>
+        </div>
+        <div class="content">
+            <button aria-readonly="true" id="second">00</button>
+            <p class="date">seconds</p>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
